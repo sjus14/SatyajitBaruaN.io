@@ -1,0 +1,229 @@
+
+/* Normalizing in All HTML CODE */
+  *
+  {
+    /* margin:1px;
+    padding: 2px; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:LightGray;
+  }
+
+  .logo_div1
+  {
+    width: 100%;
+    min-height: 80px;
+    background-color:LightGray;
+    padding-left: 2px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    /*border: 4px solid orchid;*/
+    text-align: center;
+
+  }
+
+
+  .header_banner_div1{
+    width: 100%;
+    min-height: 100px;
+    background-color:LightGray;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+    /*border: 4px solid orchid;*/
+  }
+
+.mainDiv1{
+    width: 100%;
+    margin-bottom: 10px;
+   /* min-height: 400px; */
+    /*text-align: center; */
+}
+
+.side_bar_div1{
+    width: 30%;
+    min-height: 100px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    line-height:100px ;
+    padding: 20px;
+    padding-left: 15px;
+    /*border: 4px solid chocolate;*/
+    /*padding: 20px;
+    padding-left: 15px;
+    
+    /* position: 50%; */
+ 
+}
+.side_bar_div2{
+  width: 33%;
+  min-height: 100px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  line-height:100px ;
+  /*border: 4px solid chocolate;*/
+  padding: 20px;
+  padding-left: 15px;
+  
+  /* position: 50%; */
+
+}
+
+.body_area_div1{
+  width: 33%;
+  min-height: 100px;
+  background-color:white;
+  float: right;
+  text-align: center;
+  line-height:100px ;
+  /*border: 4px solid chocolate;*/
+  padding: 20px;
+  padding-left: 15px;
+}
+
+.img-with-txt{
+  width: 100%;
+  min-height: 30px;
+  text-align: center;
+  line-height: 30px ;
+  background-color: white;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+.headlineUpic
+{
+  margin:0;
+  padding:0;
+  line-height:0px;
+  background-color: white;
+}
+
+.img-with-txt img{
+display: block;
+margin: 0 auto;
+}
+
+.btn{
+width: 50%;
+min-height: 20px;
+text-align: center;
+text-decoration: none;
+font-size: 5px bold;
+font-family: 'Times New Roman', Times, serif;
+margin: auto;
+background-color: rgb(84, 147, 206);
+color: Black;
+padding: 15px;
+line-height: 20px;
+border-radius: 10px;
+
+}
+
+#clearfix::after
+{
+   content: "";
+   display: block;
+   clear: both;
+}
+
+.footer_div1{
+    width: 100%;
+    min-height: 50px;
+    background-color: LightGray;
+    text-align: center;
+    line-height: 50px;
+  
+   
+}
+
+.wrapper_div1{
+    /* make your layout certeralize */
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Modal Window */
+.bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: LightGray;
+  position: fixed;
+  top:0;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+  pointer-events: none;
+  left:0;
+  right: 0;
+  top:0;
+  bottom:0;
+  opacity: 0;
+}
+
+/* Modal Window Content*/
+.modal-content{
+width: 500px;
+height: 300px;
+background-color: white;
+top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+opacity: 0;
+
+}
+
+.bg-modal:target{
+  opacity: 1;
+  pointer-events: all;
+  
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 0;
+  color: #951010;
+  right:14px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+ 
+}
+
+.close:hover,.close:focus {
+  color: #0f679e;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.bottomlink{
+    
+  width: 100%;
+  min-width: 10px;
+  background-color: lightgray;
+  text-align: center;
+  width: 95%;
+  min-height: 1px;
+  text-align: center;
+  line-height:1px ;
+  padding: 20px;
+  padding-left: 15px;
+  font-style: italic;
+  font-size:large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* use for hover  */
+nav >a:hover{
+  color:blueviolet;
+  background-color: rgb(84, 147, 206);;
+}
